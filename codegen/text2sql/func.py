@@ -33,12 +33,14 @@ from langchain.callbacks.manager import (
 )
 from langchain.llms.bedrock import Bedrock
 
-
-
-aos_endpoint="vpc-llm-rag-aos-seg3mzhpp76ncpxezdqtcsoiga.us-west-2.es.amazonaws.com"
-embedding_endpoint_name="bge-zh-15-2023-09-25-07-02-01-080-endpoint"
-sqlcoder_endpoint_name="sqlcoder-2023-10-07-01-50-46-950-endpoint"
-dburi = "database-us-west-2-demo.cluster-c1qvx9wzmmcz.us-west-2.rds.amazonaws.com"
+aos_endpoint = 'vpc-domain66ac69e0-qliywzjucnoo-duxvwbhdanwqpolqf7gc2fzlza.us-west-2.es.amazonaws.com'
+#aos_endpoint="vpc-llm-rag-aos-seg3mzhpp76ncpxezdqtcsoiga.us-west-2.es.amazonaws.com"
+embedding_endpoint_name="bge-zh-15-2023-11-29-08-33-59-095-endpoint"
+#embedding_endpoint_name="bge-zh-15-2023-09-25-07-02-01-080-endpoint"
+sqlcoder_endpoint_name="sqlcoder-2023-11-29-08-13-40-477-endpoint"
+#sqlcoder_endpoint_name="sqlcoder-2023-10-07-01-50-46-950-endpoint"
+dburi = "llmnew2.ci43lda4djlb.us-west-2.rds.amazonaws.com"
+#dburi = "database-us-west-2-demo.cluster-c1qvx9wzmmcz.us-west-2.rds.amazonaws.com"
 region='us-west-2'
 username="admin"
 passwd="(OL>0p;/"
